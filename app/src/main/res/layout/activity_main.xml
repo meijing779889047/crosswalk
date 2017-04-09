@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+    <Button
+        android:id="@+id/btn_webview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载网页" />
+
+    <Button
+        android:id="@+id/btn_webview2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:text="加载本地网页，进行js交互" />
+
+    <Button
+        android:id="@+id/btn_webview3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:text="加载本地网页，进行js交互,获取本地文件" />
+</LinearLayout>
